@@ -13,11 +13,11 @@ public class Principal31 {
 				
 		do {
 			
-			System.out.println("Introdueix comanda (màxim 10 comandes). Escriu Esc per sortir, "
-					+ "delete per eliminar l'última comanda i print per mostrar totes les comandes introduides.");
+			System.out.println("\n ****Introdueix comanda (màxim 10 comandes)****\n\n Introdueix la paraula i prem intro per guardar.\n Escriu esc, per sortir. "
+					+ "\n Escriu delete, per eliminar l'última comanda. \n Escriu print, per mostrar totes les comandes introduides.");
 			string=sc.nextLine();
 			
-			switch(string) {
+			switch(string.toLowerCase()) {
 			
 			case "esc":
 				
